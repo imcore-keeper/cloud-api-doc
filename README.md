@@ -33,3 +33,21 @@
 |memory		|	字符串	| 内存信息				
 |screen		|	字符串	| 屏幕大小及分辨率信息		
 
+*** Body参数JSON示例 ***
+```json
+{
+	"category": 0,
+	"appName": "WebStorm",
+	"appParams": "",
+	"userToken": "sdfsadfsdfsdfsdfsdfdsfsdfsdf",
+    "device": {
+        "category": 0,
+        "platform": 0,
+        "version": "win10",
+        "model": "DELL08976",
+        "cpu": "i7-8700@3.20G",
+        "memory":"8GB",
+        "screen": "1920*1080"
+    }
+}
+```
