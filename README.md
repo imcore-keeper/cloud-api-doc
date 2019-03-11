@@ -51,3 +51,14 @@
     }
 }
 ```
+. 启动成功
+```http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 334
+
+{
+  "accessTime" : "2019-03-04T14:47:13.984+08:00",
+  "duration" : "5s"
+}
+```
