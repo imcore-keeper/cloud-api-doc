@@ -83,8 +83,8 @@ Content-Length: 334
   "accessTime" : "2019-03-04T14:47:13.984+08:00",
   "duration" : "5s",
   "error" : {
-	  "code": 5001，
-	  "message": "no available resources"
+	  "code" : 5001，
+	  "message" : "no available resources"
   }
 }
 ```
