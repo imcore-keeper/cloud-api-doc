@@ -21,7 +21,8 @@
 |---------------|-----------|---------------------------|
 |category		|	整形 	| 应用类别 0:一般应用，1:游戏 	|
 |appName		|	字符串	| 应用名称 eg：WebStorm 		|
-|appParams		|	字符串	| 应用启动参数			 	|				|
+|appParams		|	字符串	| 应用启动参数(可选) 		|
+|operation		|	整形 	| 应用操作码 0:关闭，1:启动	|
 |device			|	JSON	| 用户终端设备信息				|
 
 
@@ -42,6 +43,7 @@
 	"category": 0,
 	"appName": "WebStorm",
 	"appParams": "",
+	"operation": 1,
     	"device": {
         	"category": 0,
         	"platform": 0,
